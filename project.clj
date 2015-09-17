@@ -30,7 +30,7 @@
                          :source-map-timestamp true }}
              {:id "min"
               :source-paths ["src"]
-              :compiler {:output-to "resources/public/js/compiled/gol_web.js"
+              :compiler {:output-to "resources/public_min/js/compiled/gol_web.js"
                          :main gol_web.core
                          :optimizations :advanced
                          :pretty-print false}}]}
